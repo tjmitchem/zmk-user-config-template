@@ -24,14 +24,14 @@
 
         Layer__1 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans            &bt BT_CLR      &trans        &trans    &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans        &trans    &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &studio_unlock  &kp HOME      &kp UP    &kp END    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans          &kp LEFT      &kp DOWN  &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans        &trans    &trans     &trans  &trans
-                &trans  &trans                                                          &trans    &trans
-                                &trans  &trans  &trans    &kp C_VOL_DN    &kp C_VOL_UP  &kp C_PP
-                                &trans  &trans  &trans    &kp C_PREV      &kp C_NEXT    &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &bt BT_CLR      &bt BT_DISC 0  &bt BT_SEL 0  &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans         &trans        &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &studio_unlock  &kp HOME       &kp UP        &kp END    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans          &kp LEFT       &kp DOWN      &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans         &trans        &trans     &trans  &trans
+                &trans  &trans                                                           &trans        &trans
+                                &trans  &trans  &trans    &kp C_VOL_DN    &kp C_VOL_UP   &kp C_PP
+                                &trans  &trans  &trans    &kp C_PREV      &kp C_NEXT     &trans
             >;
         };
 
