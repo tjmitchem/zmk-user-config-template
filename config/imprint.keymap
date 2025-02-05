@@ -47,5 +47,18 @@
                                 &trans  &trans  &trans    &trans  &trans           &trans
             >;
         };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans                                            &trans  &trans
+                                &trans  &trans  &trans    &trans  &trans  &trans
+                                &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
     };
 };
