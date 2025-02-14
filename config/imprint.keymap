@@ -4,6 +4,26 @@
 #include <dt-bindings/zmk/rgb.h>
 
 / {
+    underglow-layer {
+        compatible  = "zmk,underglow-layer";
+
+        base {
+            bindings = <
+    &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___            &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___
+    &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___            &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___
+    &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___            &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___
+    &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___            &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___
+    &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___            &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___
+                    &ug ___  &ug ___                                            &ug ___  &ug ___
+                                &ug ___  &ug ___  &ug ___    &ug ___  &ug ___  &ug ___
+                                &ug ___  &ug ___  &ug ___    &ug ___  &ug ___  &ug ___
+                >;
+            layer-id = <Underglow>;
+        };
+    };
+};
+
+/ {
     chosen { zmk,matrix-transform = &imprint_function_row; };
 
     keymap {
