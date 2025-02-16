@@ -6,25 +6,6 @@
 #include <dt-bindings/zmk/rgb_colors.h>
 
 / {
-    underglow-layer {
-        compatible  = "zmk,underglow-layer";
-
-        base {
-            bindings = <
-    &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___            &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___
-    &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___            &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___
-    &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___            &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___
-    &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___            &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___
-    &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___            &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___
-                    &ug ___  &ug ___                                            &ug ___  &ug ___
-                                &ug ___  &ug ___  &ug ___    &ug ___  &ug ___  &ug ___
-                                &ug ___  &ug ___  &ug ___    &ug ___  &ug ___  &ug ___
-                >;
-        };
-    };
-};
-
-/ {
     chosen { zmk,matrix-transform = &imprint_function_row; };
 
     keymap {
